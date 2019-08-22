@@ -6,6 +6,8 @@ Web development some useful libs
 $ pip install git+https://github.com/nadostar/kingdomlib.git
 
 $ git clone git://github.com/nadostar/kingdomlib.git $ cd kingdomlib $ python setup.py install
+
+$ pipenv install git+https://github.com/nadostar/kingdomlib.git#egg=kingdomlib
 ```
 
 # Testing
