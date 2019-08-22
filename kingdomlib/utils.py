@@ -4,11 +4,18 @@
    ~~~~~~~~~~~~~~~~
 """
 
+from datetime import date, datetime
 from flask import request
 
 ROBOT_BROWSERS = ('google', 'msn', 'yahoo', 'ask', 'aol')
 ROBOT_KEYWORDS = ('spider', 'bot', 'crawler', '+http')
 MOBILE_PLATFORMS = ('iphone', 'android', 'wii')
+
+
+def json_encode(obj):
+    if isinstance(obj, (datetime, date)):
+        return obj.isoformat()
+    raise TypeError("Type %s not serializable" % type(obj))
 
 
 def xmldatetime(date):
