@@ -11,6 +11,9 @@ from werkzeug.local import LocalProxy
 from flask import g, current_app
 from .contrib.cache import Cache
 
+__all__ = ('cache', 'redis', 'ONE_DAY', 'ONE_HOUR', 'FIVE_MINUTES',
+           'RedisStat', 'execute_pipeline', 'cached')
+
 # define cache times
 ONE_DAY = 86400
 ONE_HOUR = 3600

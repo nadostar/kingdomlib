@@ -4,7 +4,7 @@
    ~~~~~~~~~~~~~~~~~~~~
 """
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 __license__ = 'BSD'
 __author__ = 'Simon Lee'
 __author_email__ = 'sungyee530@gmail.com'
