@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-   kingdomlib.sqlalchemy
-   ~~~~~~~~~~~~~~~~~~~~~
+   kingdomlib.database
+   ~~~~~~~~~~~~~~~~~~~
 """
 
 from flask import abort, json
